@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="title">Wordle</string>
+    <string name="correct_thanks_for_playing">Correct! Thanks for Playing</string>
+</resources>

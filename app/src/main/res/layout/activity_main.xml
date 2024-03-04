@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121213"
+    tools:context=".MainActivity">
+
+    <!--on below line creating a text view for heading-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        tools:viewBindingIgnore="true" >
+
+
+    <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:autofillHints="false"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <!-- on below line creating an edit text for word-->
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <!-- on below line creating a linear layout for row-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/editable_boxes"
+                android:gravity="center"
+                android:maxLength="1"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/guessText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/correct_thanks_for_playing"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
